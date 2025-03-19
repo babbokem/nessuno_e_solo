@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Diario</h1>
+{% for storia in storie %}
+    <div style="margin-bottom: 30px;">
+        <h2>{{ storia.titolo }}</h2>
+        <small>{{ storia.data_creazione|date:"d M Y, H:i" }}</small>
+        <p>{{ storia.contenuto }}</p>
+        <hr>
+    </div>
+{% empty %}
+    <p>Ancora nessuna storia. Ma ogni silenzio è un seme.</p>
+{% endfor %}
+{% endblock %}

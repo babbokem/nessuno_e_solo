@@ -1,0 +1,13 @@
+<!-- templates/home.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="hero">
+    <img src="{% static 'img/terra-cuore.jpg' %}" alt="Madre terra" class="hero-img">
+    <div class="hero-text">
+        <h1>Nessuno è solo</h1>
+        <p>Ogni vita è fatta di terra, luce, ombra e rinascita.</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!-- templates/base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Nessuno è solo</title>
+    <link rel="stylesheet" href="{% static 'css/stile.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/manifesto/">Manifesto</a> |
+        <a href="/diario/">Diario</a> |
+        <a href="/contatto/">Contatto</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
