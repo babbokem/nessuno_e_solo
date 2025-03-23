@@ -1,0 +1,1 @@
+web: gunicorn nessuno_e_solo.wsgi --log-file 

@@ -1,0 +1,92 @@
+/* static/css/stile.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e3e3d3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #27ae60;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+.hero-img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.hero-img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);  /* leggermente più scuro */
+    padding: 10px 20px;
+    border-radius: 12px;
+    max-width: 80%;
+    text-align: center;
+}
+
+
